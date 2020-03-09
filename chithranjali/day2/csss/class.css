@@ -1,0 +1,17 @@
+.rose 
+    {
+        font-size:17px;
+        color:blue;
+        font-style:oblique;
+    }
+.jasmine
+    {
+        font-size:25px;
+        color:violet;
+    }
+#p01
+    {
+    font-size:35px;
+    color:rgb(199, 13, 100);
+    font-style:italic;
+    }
