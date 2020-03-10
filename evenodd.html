@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+   <div class="container">
+       <div class="row">
+           <div class="col">
+           <form>
+               <tr>
+                   <td>NUMBER</td>
+                   <td><input type="text"CLASS="form-control"id="num"></td>
+               </tr>
+               <BR>
+               <tr>
+                   <td><button type="button" class="btn btn-success" onclick="eo()">EVEN OR ODD</button></td>
+                   <tr>
+                       <td><p id="1"></p></td>
+                   </tr>
+               </tr>
+           </form>
+        </div>
+       </div>
+   </div> 
+   <script>
+    function eo()
+    {
+    var x=parseInt(document.getElementById("num").value);
+    
+            if(x%2==0)
+            {
+          
+                document.getElementById("1").innerHTML="even";
+             }
+             else
+             {
+                document.getElementById("1").innerHTML="odd";
+             };
+            };
+       
+   </script>
+</body>
+</html>
